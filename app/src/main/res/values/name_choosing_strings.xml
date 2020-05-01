@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_names">Choose names</string>
+    <string name="make_groups">Make groups</string>
+    <string-array name="choosing_options">
+        <item>@string/choose_names</item>
+        <item>@string/make_groups</item>
+    </string-array>
+
+    <string name="choose_icon">{ion-android-person}</string>
+    <string name="groups_icon">{ion-android-people}</string>
+    <string-array name="choosing_options_icons">
+        <item>@string/choose_icon</item>
+        <item>@string/groups_icon</item>
+    </string-array>
+
+    <string name="reset_list">Reset list</string>
+    <string name="no_names_for_choosing">
+        Go to the Edit page to add names to this list!
+    </string>
+    <string name="name_chosen">And the lucky winner is&#8230;</string>
+    <string name="names_chosen">And the lucky winners are&#8230;</string>
+    <string name="out_of_names">
+        No names remain. Tap on the {ion-android-refresh} button at the top right to put them all back.
+    </string>
+    <string name="single_name">&#160;name</string>
+    <string name="plural_names">&#160;names</string>
+
+    <string name="one_name">1 name</string>
+    <string name="x_names">%d names</string>
+
+    <string name="chosen_names">Chosen names</string>
+
+    <string name="name_choosing_settings">Name Choosing Settings</string>
+    <string name="presentation_mode">Presentation mode</string>
+    <string name="with_replacement">With replacement</string>
+    <string name="automatic_tts">Automatically say chosen names</string>
+    <string name="show_as_list">Show chosen names as list</string>
+    <string name="num_people_chosen"># of names chosen:</string>
+    <string name="default_num_names_chosen">1</string>
+    <string name="settings_applied">Your settings have been applied.</string>
+
+    <!-- Chosen name(s) options -->
+    <string name="copy_text">Copy text</string>
+    <string name="copy_confirmation_singular">The chosen name has been copied to your clipboard.</string>
+    <string name="copy_confirmation_plural">The chosen names have been copied to your clipboard.</string>
+
+    <string name="chosen_names_history">Chosen Names History</string>
+    <string name="show_already_chosen">Show chosen names history</string>
+    <string name="clear">Clear</string>
+    <string name="empty_names_history">Your chosen names history is empty.</string>
+    <string name="name_history_cleared">Your chosen names history has been cleared.</string>
+    <string name="name_history_copied">Your chosen names history has been copied to your clipboard.</string>
+
+    <string name="say_name">Say name</string>
+    <string name="say_names">Say names</string>
+    <string name="text_to_speech_fail">We were unable to initialize your device\'s Text To Speech engine.</string>
+
+    <string name="list_reset_confirmation">List reset and all names restored.</string>
+
+    <string name="customize_choosing_message_dialog_title">Customize Choosing Message</string>
+    <string name="choosing_message_updated">Choosing message updated for this list!</string>
+</resources>

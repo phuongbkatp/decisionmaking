@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buy_premium_title">Buy Premium</string>
+    <string name="payment_flow_startup_failed">
+        We were unable to start the payment flow. Please try again later!
+    </string>
+    <string name="payment_thank_you">
+        Every cent of your purchase goes towards improving Random Name Picker!
+    </string>
+    <string name="payment_failed">
+        We failed to process your payment. Please try again later!
+    </string>
+
+    <string name="premium_intro">
+        For just $0.99, you get the following with Random Name Picker Premium:
+    </string>
+    <string name="premium_feature_list">{ion-checkmark-circled #4CAF50} <b>No ads</b>
+        - Clear the clutter, so you can focus on your choosing.
+        \n\n{ion-checkmark-circled #4CAF50} <b>List sharing</b> - Export your name lists
+        as .txt files or .csv spreadsheets. Send them to your other devices or to your friends.
+        \n\n{ion-checkmark-circled #4CAF50} <b>Premium support</b>
+        - Your feedback will become the most important and is guaranteed a response.
+        If you\'re running into a bug, I will squash it ASAP.
+        If you have a feature request, it will be at the top of the list
+        among the dozens of feature requests this app always has.
+    </string>
+
+    <string name="post_payment_thank_you">{ion-checkmark-circled 120dp #4CAF50}\n\nThank You</string>
+
+    <string name="premium_detected_buy_page">
+        We detected that you purchased Random Name Picker Premium on another device.
+        You have not been charged and can simply close the page.
+    </string>
+</resources>

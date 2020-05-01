@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="SpUsage"
+    >
+
+    <TextView
+        android:id="@+id/number_of_names_in_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="17dp"
+        android:textColor="@color/dark_gray"
+        />
+
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num_of_names_in_group"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/num_of_names_per_group"
+            android:text="@string/default_number_of_names_per_group"
+            style="@style/two_number_setting"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num_of_groups"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/num_of_groups"
+            android:text="@string/default_number_of_groups"
+            style="@style/two_number_setting"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/groups_warning_message"
+        android:text="@string/groups_warning_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:textSize="15dp"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/autocomplete"
+        android:text="@string/groups_autocomplete_settings"
+        app:buttonTint="@color/checkbox_box_color"
+        style="@style/setting_checkbox"
+        />
+</LinearLayout>

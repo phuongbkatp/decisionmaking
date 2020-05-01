@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/no_groups"
+        android:text="@string/no_groups_created_message"
+        android:visibility="visible"
+        style="@style/empty_state_text"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/groups_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_ad_banner_container"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:clipToPadding="false"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+    <FrameLayout
+        android:id="@+id/bottom_ad_banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/make_groups"
+        />
+
+    <TextView
+        android:id="@+id/make_groups"
+        android:text="@string/make_groups_button_text"
+        android:layout_alignParentBottom="true"
+        style="@style/button"
+        />
+</RelativeLayout>

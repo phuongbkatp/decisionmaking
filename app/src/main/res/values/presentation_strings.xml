@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="presentation_settings_title">Presentation Mode Settings</string>
+    <string name="set_text_size">Set text size</string>
+    <string name="set_text_color">Set text color</string>
+    <string-array name="presentation_settings_options">
+        <item>@string/set_text_size</item>
+        <item>@string/set_text_color</item>
+    </string-array>
+
+    <string name="set_text_size_title">Set Text Size</string>
+    <string name="set_text_color_title">Set Text Color</string>
+    <string name="sample_text">Hi</string>
+
+    <string name="drumroll_error">Unable to load presentation mode sound.</string>
+    <string name="no_names_left">You have no more names left to choose from.</string>
+</resources>

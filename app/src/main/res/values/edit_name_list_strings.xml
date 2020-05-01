@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_and_edit_names">Add/edit names</string>
+    <string name="rename_list">Rename list</string>
+    <string name="cross_list_import">Cross-list import</string>
+    <string-array name="edit_list_options">
+        <item>@string/add_and_edit_names</item>
+        <item>@string/rename_list</item>
+        <item>@string/cross_list_import</item>
+    </string-array>
+
+    <string name="upload_icon">{ion-android-upload}</string>
+    <string-array name="edit_list_icons">
+        <item>@string/add_circle_icon</item>
+        <item>@string/edit_icon</item>
+        <item>@string/upload_icon</item>
+    </string-array>
+
+    <string name="edit">Edit</string>
+    <string name="no_names_for_edit">
+        Type in a name and click + to add it to the list.
+        When you\'re done, use the {ion-android-person} button above to start choosing!
+    </string>
+    <string name="blank_name">Names cannot be blank.</string>
+    <string name="name_hint">Name</string>
+    <string name="added_name">Added \"%s\"</string>
+    <string name="deleted_name">\"%s\" deleted from the list.</string>
+
+    <!-- Name options -->
+    <string name="list_icon">{ion-android-list}</string>
+    <string name="rename_person">Rename \"%s\"</string>
+    <string name="delete_name">Delete \"%s\"</string>
+    <string name="duplicate">Duplicate \"%s\"</string>
+    <string name="cloning_title">How many copies of this name do you want to add?</string>
+    <string name="num_copies"># of copies</string>
+    <string name="clones_added">Name duplicated.</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+
+    <string name="confirm_deletion_title">Confirm List Deletion</string>
+    <string name="confirm_deletion_message">Are you sure you want to delete your name list %s?</string>
+    <string name="name_input_with_speech_prompt">Tell us what name you want to add</string>
+    <string name="create_new_list_title">Create New List</string>
+    <string name="create_list_hint">List name</string>
+    <string name="create">Create</string>
+    <string name="new_list_name">New list name</string>
+    <string name="new_name">New name</string>
+    <string name="change_name">Change Name</string>
+
+    <string name="confirm_name_deletion">Confirm Name Deletion</string>
+    <string name="confirm_name_delete">Are you sure you want to remove \"%s\" from this name list?</string>
+
+    <string name="multiple_deletions_title">
+          How many copies of %s do you want to delete?
+          You currently have %d copies of this name.
+     </string>
+
+    <string name="names_deleted">%d instances of \"%s\" deleted from the list.</string>
+    <string name="multiple_renames_title">
+        How many copies of %s do you want to change?
+        You currently have %d copies of this name.
+    </string>
+  
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="all_of_them">All of them</string>
+
+    <string name="list_deleted">List deleted.</string>
+    <string name="list_renamed">List renamed.</string>
+
+    <string name="name_list_importer">Name List Importer</string>
+    <string name="name_list_importer_body">
+        Choose the lists you want to import names from into this list.
+    </string>
+    <string name="no_import_candidates">
+        You have no non-empty lists to import names from.
+    </string>
+    <string name="list_import_success">
+        Names successfully imported from other lists.
+    </string>
+</resources>

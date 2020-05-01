@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="premium_tooltip_title">Hate Ads?</string>
+    <string name="premium_tooltip_body">
+        For just $0.99, you can remove ads, unlock premium support, and constantly get exclusive features.
+        Simply tap here to learn more.
+    </string>
+
+    <string name="home_icon">{ion-android-home}</string>
+    <string name="settings_icon">{ion-android-settings}</string>
+    <string name="document_icon">{ion-document-text}</string>
+    <string name="add_circle_icon">{ion-android-add-circle}</string>
+    <string name="create_name_list">Create name list</string>
+    <string name="import_from_txt_file">Import list from .txt file</string>
+
+    <string name="homepage_empty_text">
+        Welcome to Random Name Picker!
+        Here\'s how you can start adding name lists:
+    </string>
+
+    <string name="home_add_options_info_text">
+        You can also find all of these options by tapping the {ion-android-add-circle} button at the bottom.
+    </string>
+
+    <string name="no_lists_search">You do not have any lists that match your search.</string>
+
+    <string name="premium_detected_home">
+        We detected that you purchased Random Name Picker Premium on another device.
+        You can restart the app to immediately see all the upgrades.
+    </string>
+</resources>
